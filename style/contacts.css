@@ -1,0 +1,147 @@
+header {
+  background-size: cover;
+  background-position-y: -200px;
+  background-image: url(../images/NES_6927.jpg);
+  background-color: black;
+  background-attachment: fixed;
+  height: 500px;
+  padding: 1px;
+  margin: 0px;
+}
+
+.header_title {
+  text-align: center;
+  color: black;
+  margin-top: 100px;
+  font-size: 55px;
+  font-family: "Righteous", cursive;
+  border: #D2B48C solid 10px;
+  border-radius: 3px;
+  background-color: #deeadf;
+  width: 500px;
+  padding: 15px 30px 15px 30px;
+  min-inline-size: 200px;
+}
+
+.header_h {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.navbar_logo {
+  height: 80px;
+  width: 80px;
+  margin: -15px 0px 0px 35px;
+}
+
+.nav_bar__link {
+  margin: 0px 55px 0px 10px;
+  text-decoration: none;
+  border-bottom: solid 2px black;
+  color: #DCDDCC;
+  font-size: larger;
+  padding-bottom: 8px;
+  font-family: "Righteous", cursive;
+}
+
+.firstsection {
+  height: 980px;
+  background-color: #DCDDCC;
+  text-align: center;
+  padding: 1px;
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  background-color: #deeadf;
+  width: 84%;
+  height: 650px;
+  margin: auto;
+  margin: 150px;
+  border: solid 5px #D2B48C;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-family: "Poppins", sans-serif;
+}
+
+.leftbox {
+  border-right: solid 2px #D2B48C;
+}
+
+.rightbox {
+  border-left: solid 2px #D2B48C;
+}
+
+.h_service {
+  margin-top: 50px;
+  font-size: 30px;
+  border-bottom: solid 4px #D2B48C;
+  padding-bottom: 35px;
+}
+
+.leftbox_service {
+  margin-top: 110px;
+  margin-left: 35px;
+  text-align: left;
+  font-size: 20px;
+}
+
+.h_contact {
+  margin-top: 130px;
+}
+
+.footer {
+  height: 300px;
+  background-color: #D2B48C;
+  padding-top: 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer_logo {
+  height: 200px;
+  width: 200px;
+  margin-top: 50px;
+  margin-right: 25px;
+}
+
+.footer_title {
+  margin-top: 25px;
+  margin-left: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+footer_socialmedia {
+  display: flex;
+  text-decoration: none;
+}
+
+.footer_a {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: black;
+  margin-top: 15px;
+}
+
+.footer_pic {
+  height: 30px;
+  width: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 1600px) {
+  header {
+    background-position: center;
+  }
+}/*# sourceMappingURL=contacts.css.map */
