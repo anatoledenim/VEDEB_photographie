@@ -6,6 +6,11 @@ $main_font : 'Righteous', cursive;
 $secondary_font : 'Poppins', sans-serif;
 
 
+
+body {
+  background-color: $third_color;
+}
+
 header {
   background-size: cover;
   background-position-y: -400px;
@@ -59,17 +64,17 @@ header {
 
 
 
-body {
-  background-color: $main_color;
-}
-
 
 // /PREMIERE LIGNE D'IMAGE 
 
 
+section {
+  background-color: $main_color;
+}
+
 .container_first {
   display: flex;
-  margin-top: 50px;
+  padding-top: 50px;
   width: 100%;
 }
 
@@ -103,6 +108,7 @@ body {
 
 
     .cf_image1 {
+      margin-top: 17px;
       margin-left: 20px;
       width: 95%;
       height: 25%;
@@ -110,9 +116,9 @@ body {
     }
 
     .cf_image2 {
-      margin-top: 0px;
+      margin-top: 13px;
       margin-left: 20px;
-      width: 95%;
+      width: 85%;
       height: 55%;
       background-color: grey;
     }
@@ -130,8 +136,8 @@ body {
 
     .cf_image4 {
       margin-top: 0px;
-      margin-left: 20px;
-      width: 95%;
+      margin-right: 0px;
+      width: 100%;
       height: 30%;
       background-color: grey;
     }
@@ -161,16 +167,17 @@ body {
 
     .cf_image7 {
       margin-left: 15px;
+      margin-top: 15px;
       width: 95%;
-      height: 20%;
+      height: 22%;
       background-color: grey;
     }
 
     .cf_image8 {
-      margin-top: 0px;
+      margin-top: 10px;
       margin-left: 15px;
       width: 95%;
-      height: 60%;
+      height: 58.4%;
       background-color: grey;
     }
 
@@ -220,8 +227,8 @@ body {
 
     .cs_image1 {
       margin-left: 20px;
-      width: 95%;
-      height: 35%;
+      width: 400px;
+      height: 600px;
       background-color: grey;
     }
 
@@ -239,8 +246,8 @@ body {
 
     .cs_image3 {
       margin-left: 20px;
-      width: 95%;
-      height: 50%;
+      width: 400px;
+      height: 600px;
       background-color: grey;
     }
 

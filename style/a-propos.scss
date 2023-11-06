@@ -6,6 +6,10 @@ $main_font : 'Righteous', cursive;
 $secondary_font : 'Poppins', sans-serif;
 
 
+body {
+  background-color: $third_color;
+}
+
 header {
   background-size: cover;
   background-position-y: -400px;
