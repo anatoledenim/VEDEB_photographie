@@ -975,4 +975,20 @@ footer_socialmedia {
 }
 
 
+@media screen and (max-width: 1000px){
 
+
+    .firstsection_image, .firstsection_image_b, .firstsection_image_bz, .firstsection_image_c, .firstsection_image_cz {
+        margin-left: 40px;
+    }
+
+    .firstsection_p {
+        font-size: 13.5px;
+        margin-left: 80px;
+    }
+
+    .sectiontitle {
+        height: 100px;
+    }
+
+}
