@@ -5,7 +5,9 @@ $third_color: #D2B48C;
 $main_font : 'Righteous', cursive;
 $secondary_font : 'Poppins', sans-serif;
 
-
+html {
+  height: auto;
+}
 
 body {
   background-color: $third_color;
@@ -65,7 +67,7 @@ header {
 
 
 
-// /PREMIERE LIGNE D'IMAGE 
+// DEBUT DE LA SECTION PAGE 
 
 
 section {
@@ -75,231 +77,340 @@ section {
 }
 
 .page {
-  height: 4000px;
+  height: auto;
 }
+
+.cube {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+
+// IMAGE CONCERT HORIZONTAL ET VERTICAL 
+
+// IMAGE CONCERT VERTICAL
 
 .first_title {
   text-align: center;
   margin-top: 15px;
-  font-size: 35px;
+  font-size: 240%;
   font-family: $main_font;
   text-decoration: underline;
 }
 
 .concertV {
   display: flex;
-  padding-top: 50px;
   width: 100%;
-  height: 1400px;
+  height: auto;
+  margin-bottom: 80px;
 }
 
-
-// COLONNNES D'IMAGES
-
-
-.firstsection_columnCV {
-  height: 1370px;
-  width: 25%;
-  margin-left: 5px;
-}
-
-.secondsection_columnCV {
-  height: 1370px;
-  width: 25%;
-}
-
-.thirdsection_columnCV {
-  height: 1370px;
-  width: 25%;
-}
-
-.fourthsection_columnCV {
-  height: 1370px;
-  width: 25%;
-  margin-right: 10px;
-}
 
 
  // IMAGES DANS LES COLONNES
     //  COLONNE 1
 
 
+    .firstsection_columnCV {
+      height: auto;
+      width: 25%;
+      margin-left: 8px;
+    }
+
     .concert_image1V {
       margin-top: 23px;
-      margin-left: 20px;
-      width: 433px;
-      height: 650px;
-      background-color: grey;
+      margin-left: 10px;
+      width: 94.34%;
+      height: 47.45%;
+      max-width: 100%;
     }
 
     .concert_image2V {
       margin-top: 23px;
-      margin-left: 20px;
-      width: 433px;
-      height: 650px;
-      background-color: grey;
+      margin-left: 10px;
+      width: 94.34%;
+      height: 47.45%;
+      max-width: 100%;
     }
 
 
     //  COLONNE 2
 
 
+    .secondsection_columnCV {
+      height: auto;
+      width: 25%;
+    }
+
     .concert_image3V {
       margin-top: 23px;
       margin-left: 10px;
-      width: 433px;
-      height: 650px;
-      background-color: grey;
+      width: 94.34%;
+      height: 47.45%;
+      max-width: 100%;
     }
 
     .concert_image4V {
       margin-top: 23px;
       margin-left: 10px;
-      width: 433px;
-      height: 650px;
-      background-color: grey;
+      width: 94.34%;
+      height: 47.45%;
+      max-width: 100%;
     }
     
 
     //  COLONNE 3
 
 
+    .thirdsection_columnCV {
+      height: auto;
+      width: 25%;
+      margin-left: 2px;
+    }
+
     .concert_image5V {
       margin-top: 23px;
-      margin-left: 0px;
-      width: 450px;
-      height: 650px;
-      background-color: grey;
+      margin-left: 10px;
+      width: 94.34%;
+      height: 47.45%;
+      max-width: 100%;
     }
 
     .concert_image6V {
       margin-top: 23px;
-      margin-left: 0px;
-      width: 450px;
-      height: 650px;
-      background-color: grey;
+      margin-left: 10px;
+      width: 94.34%;
+      height: 47.45%;
+      max-width: 100%;
     }
 
 
     //  COLONNE 4
 
 
+    .fourthsection_columnCV {
+      height: auto;
+      width: 25%;
+      margin-right: 8px;
+    }
+
     .concert_image7V {
       margin-top: 23px;
       margin-left: 10px;
-      width: 450px;
-      height: 650px;
-      background-color: grey;
+      width: 94.34%;
+      height: 47.45%;
+      max-width: 100%;
     }
 
     .concert_image8V {
       margin-top: 23px;
       margin-left: 10px;
-      width: 450px;
-      height: 650px;
-      background-color: grey
+      width: 94.34%;
+      height: 47.45%;
+      max-width: 100%;
     }
 
 
+// IMAGE CONCERT HORIZONTAL
+
+
 .concertH {
-  height: 1800px;
+  height: auto;
 }
+
+
+// IMAGES DANS LES COLONNES
+    //  COLONNE 1
 
 .firstsection_columnCH {
-  height: 600px;
+  height: auto;
   display: flex;
   justify-content: space-around;
 }
-
-.secondsection_columnCH {
-  height: 600px;
-  display: flex;
-  justify-content: space-around;
-}
-
-.thirdsection_columnCH {
-  height: 600px;
-  display: flex;
-  justify-content: space-around;
-}
-
-.fourthsection_columnCH {
-  height: 600px;
-  display: flex;
-  justify-content: space-around;
-}
-
 
 .concert_image1H {
-  margin-top: 23px;
-  margin-left: 20px;
-  width: 800px;
-  height: 533px;
-  background-color: grey;
+  width: 86.39%;
+  max-width: 100%;
+  height: auto;
 }
 
 .concert_image2H {
-  margin-top: 23px;
-  margin-left: 20px;
-  width: 800px;
-  height: 533px;
-  background-color: grey;
+  width: 86.39%;
+  max-width: 100%;
+  height: auto;
 }
 
 
 //  COLONNE 2
 
 
+.secondsection_columnCH {
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
 .concert_image3H {
-  margin-top: 23px;
-  margin-left: 10px;
-  width: 800px;
-  height: 533px;
-  background-color: grey;
+  width: 86.39%;
+  max-width: 100%;
+  height: auto;
 }
 
 .concert_image4H {
-  margin-top: 23px;
-  margin-left: 10px;
-  width: 800px;
-  height: 533px;
-  background-color: grey;
+  width: 86.39%;
+  max-width: 100%;
+  height: auto;
 }
 
 
 //  COLONNE 3
 
+.thirdsection_columnCH {
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
 
 .concert_image5H {
-  margin-top: 23px;
-  margin-left: 0px;
-  width: 800px;
-  height: 533px;
-  background-color: grey;
+  width: 86.39%;
+  max-width: 100%;
+  height: auto;
 }
 
 .concert_image6H {
-  margin-top: 23px;
-  margin-left: 0px;
-  width: 800px;
-  height: 533px;
-  background-color: grey;
+  width: 86.39%;
+  max-width: 100%;
+  height: auto;
 }
 
 
+
+// SECTION IMAGE SNSM HORIZONTAL ET VERTICAL
 
 .second_title {
   text-align: center;
   margin-top: 15px;
-  font-size: 30px;
+  font-size: 240%;
   font-family: $main_font;
   text-decoration: underline;
 }
 
 
+// IMAGE SNSM HORIZONTAL
+
+.snsmH {
+  padding-top: 50px;
+  width: 100%;
+  height: auto;
+}
+
+// COLONNE 1
+
+.firstsection_columnSH {
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.snsm_image1H {
+  width: 86.39%;
+  max-width: 100%;
+  height: auto;
+}
+
+.snsm_image2H {
+  width: 86.39%;
+  max-width: 100%;
+  height: auto;
+}
 
 
+//  COLONNE 2
 
+.secondsection_columnSH {
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.snsm_image3H {
+  width: 86.39%;
+  max-width: 100%;
+  height: auto;
+}
+
+.snsm_image4H {
+  width: 86.39%;
+  max-width: 100%;
+  height: auto;
+}
+
+
+//  COLONNE 3
+
+.thirdsection_columnSH {
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.snsm_image5H {
+  width: 86.39%;
+  max-width: 100%;
+  height: auto;
+}
+
+.snsm_image6H {
+  width: 86.39%;
+  max-width: 100%;
+  height: auto;
+}
+
+
+// IMAGE SNSM VERTICAL
+
+.snsmV {
+  height: auto;
+  width: 100%;
+  display: flex;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+
+// COLONNE 1 
+
+
+.firstsection_columnSV {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin-left: 5px;
+}
+
+.snsm_image1V {
+  width: 58.91%;
+  max-width: 100%;
+}
+
+
+// COLONNE 2
+
+.secondsection_columnSV {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin-left: 5px;
+}
+
+.snsm_image2V {
+  width: 58.91%;
+  max-width: 100%;
+  height: 100%;
+}
 
 
 
